@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple Gadgtes</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap");
+    </style>
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="navbar bg-black text-white">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            >
+              <li><a>Item 1</a></li>
+              <li>
+                <a>Parent</a>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </li>
+              <li><a>Item 3</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">daisyUI</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Item 1</a></li>
+            <li>
+              <details>
+                <summary>Parent</summary>
+                <ul class="p-2">
+                  <li><a>Submenu 1</a></li>
+                  <li><a>Submenu 2</a></li>
+                </ul>
+              </details>
+            </li>
+            <li><a>Item 3</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Button</a>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto">
+      <div class="text-center mt-16 mb-9">
+        <h2>FEATURED CATEGORIES</h2>
+        <p>Get your desired product from featured category</p>
+      </div>
+      <div class="grid grid-cols-8 gap-x-12 gap-y-8">
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Phones20Tablets-01-3944.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">
+            Phones & Tablates
+          </p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/power-adapter-6971.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Power Adaptar</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Macbook-01-4687 (1).webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Macbook</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Smart(1).webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Smart Watch</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/airpods-8799.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Air Pods</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/ovearheadheadphones.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">
+            Overhead Headphones
+          </p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Speaker-01-9933.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Speakers</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/WiredHeadph.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Wired Headphone</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/WirelessHeadphone.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">
+            Wireless Headphone
+          </p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Cable20interconnects-01-4039.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">
+            Cable & Interconnects
+          </p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/power-bank-8067.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Power Bank</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Wirelesscharger0.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Wireless Charger</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Hubs20Dock-01-5487.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Hubs & Docks</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Cover20Glass-01-6747.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Cover & Glass</p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/Drone20Camera-01-6999.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">
+            Drone & Camera Accessories
+          </p>
+        </div>
+        <div class="w-48 bg-slate-50 rounded-2xl p-6">
+          <div class="flex justify-center">
+            <img src="images/peripherals-8306.webp" alt="" />
+          </div>
+          <p class="mt-6 text-center text-base font-medium">Peripherals</p>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
